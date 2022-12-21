@@ -1,0 +1,107 @@
+
+body{
+    /* fallback for old browsers */
+    
+    background: #fa709a;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to bottom, rgba(255, 5, 80, 0.747), rgba(219, 91, 132, 0.788), rgba(235, 170, 196, 0.685), rgba(248, 247, 242, 0.342));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom, rgba(255, 5, 80, 0.747), rgba(219, 91, 132, 0.788), rgba(235, 170, 196, 0.685), rgba(248, 247, 242, 0.342));
+   
+   
+   
+    height: 100%;
+    background-repeat: no-repeat
+}
+
+html{
+    height: 100%;
+}
+
+
+
+
+.txtPrincipal h1{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    /* font-family: 'Better Restay', sans-serif; */
+
+    font-family: 'NT Vanilla', sans-serif;
+    font-family: 'NT Vanilla alternative', sans-serif;
+    text-align: center;
+}
+
+
+  p{
+    text-align: center;
+    font-weight: 400;
+    font-size: x-large;
+    margin-top: 30px;
+    color: #ffffff;
+    font-family: 'NT Vanilla alternative', sans-serif;
+ }
+
+
+
+
+  .btn-circle.btn-xl {
+
+    background-color: #e7e5e6e3;
+    margin: 0 35px;
+    width: 70px;
+    height: 70px;
+    padding: 19px 16px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 40px;
+    border-color: rgb(241, 12, 108);
+  }
+
+  
+  .btn-circle.btn-xl :active{
+    transform: scale(1.50);
+  }
+
+
+.botoes {
+
+  display: inline-flex;
+  margin:0 0 0 29%;
+
+}
+
+fieldset{
+  text-align: center;
+}
+
+.inputBox1{
+  padding: 20px;
+}
+
+#submit{
+  margin-top: 10px;
+  border-radius: 20px;
+  border-color: rgb(241, 12, 108);
+  background-color: #ffffff;
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+}
+
+.txtFim{
+  text-align: center;
+  
+}
+
+#fechaPagina{
+  margin-top: 10px;
+  border-radius: 20px;
+  border-color: rgb(241, 12, 108);
+  background-color: #ffffff;
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+}
